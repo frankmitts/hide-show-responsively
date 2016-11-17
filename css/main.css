@@ -18,8 +18,9 @@ html {
 
 @media only screen and (min-width: 25em) {
 
-  body img {
-    width: 100%;
+  img {
+    display: inline-block;
+    width: 25%;
   }
 
   img:last-child {
@@ -30,16 +31,16 @@ html {
 
 @media only screen and (min-width: 38em) {
 
-  body img{
-    float:left;
+  img {
+    display: inline-block;
     width: 50%;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
-  body img {
-    float: left;
+  img {
+    display: inline-block;
     width: 33.3%;
   }
 
@@ -50,8 +51,8 @@ html {
 
 @media only screen and (min-width: 60em) {
 
-  body img {
-    float: left;
+  img {
+    display: inline-block;
     width: 25%;
   }
 
